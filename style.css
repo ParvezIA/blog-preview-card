@@ -1,0 +1,118 @@
+/* inbuild css */
+
+.attribution { 
+    font-size: 11px;
+    font-weight:400;
+    text-align: center;  
+    margin: 20px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: black;
+}
+/*my personal code starts here*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Figtree;
+    background-color: rgba(244, 208, 78, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.card {
+    width: 384px;
+    height: 522px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 10px;
+}
+
+.card img {
+    width: 336;
+    height: 201;
+    margin: 24px;
+    border-radius: 10px;
+    
+}
+
+.card .content {
+    margin: 0 24px;
+}
+
+button {
+    background-color: rgba(244, 208, 78, 1);
+    width: 82px;
+    height: 29px;
+    padding: 4px 12px; 
+    border: none;
+    border-radius: 4px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800; /* Extra Bold */
+    font-size: 14px;
+    line-height: 150%; /* or 21px */
+    letter-spacing: 0px;
+}
+
+.content h5 {
+    margin: 12px 0;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 14px;
+    line-height: 150%; /* or 21px */
+    letter-spacing: 0px;
+}
+
+.content h2:hover {
+    color: rgba(244, 208, 78, 1);
+}
+
+.content h2 {
+    margin: 12px 0;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800; /* Extra Bold */
+    font-size: 24px;
+    line-height: 150%; /* or 36px */
+    letter-spacing: 0px;
+}
+
+.content p {
+    margin: 12px 0 0 0;
+    color: rgb(107, 107, 107);
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 16px;
+    line-height: 150%; /* or 24px */
+    letter-spacing: 0px;
+}
+
+.autor { 
+    width: 129px;
+    height: 32px;
+    margin: 24px;
+    display: flex;
+    align-items: center;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800; /* Extra Bold */
+    font-size: 14px;
+    line-height: 150%; /* or 21px */
+    letter-spacing: 0px;
+}
+
+.autor img {
+    width: 32px;
+    height: 32px;
+    margin: 0 12px 0 0;
+}
