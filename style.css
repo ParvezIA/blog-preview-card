@@ -1,3 +1,12 @@
+/*css var */
+:root {
+    --yellow: #F4D04E;
+    --gray950: #111111;
+    --gray500: #6B6B6B;
+    --white: #FFFFFF;
+    --blue: #3e52a3;
+}
+
 /* inbuild css */
 
 .attribution { 
@@ -7,12 +16,12 @@
     margin: 20px;
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%);
+    color: var(--blue);
     text-decoration: none;
 }
 
 .attribution a:hover {
-    color: black;
+    color: var(--gray950);
 }
 /*my personal code starts here*/ 
 
@@ -22,8 +31,8 @@
 }
 
 body {
-    font-family: Figtree;
-    background-color: rgba(244, 208, 78, 1);
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--yellow);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,15 +43,15 @@ body {
 .card {
     width: 384px;
     height: 522px;
-    background-color: rgba(255, 255, 255, 1);
-    border: 1px solid black;
+    background-color: var(--white);
+    border: 1px solid var(--gray950);
     border-radius: 20px;
     box-shadow: 5px 10px;
 }
 
 .card img {
-    width: 336;
-    height: 201;
+    width: 336px;
+    height: 201px;
     margin: 24px;
     border-radius: 10px;
     
@@ -53,7 +62,7 @@ body {
 }
 
 button {
-    background-color: rgba(244, 208, 78, 1);
+    background-color: var(--yellow);
     width: 82px;
     height: 29px;
     padding: 4px 12px; 
@@ -76,7 +85,7 @@ button {
 }
 
 .content h2:hover {
-    color: rgba(244, 208, 78, 1);
+    color: var(--yellow);
 }
 
 .content h2 {
@@ -90,7 +99,7 @@ button {
 
 .content p {
     margin: 12px 0 0 0;
-    color: rgb(107, 107, 107);
+    color: var(--gray500);
     font-family: 'Figtree', sans-serif;
     font-weight: 500; /* Medium */
     font-size: 16px;
